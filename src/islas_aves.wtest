@@ -1,0 +1,20 @@
+import aves.*
+import islas.*
+
+describe "Test de islas y aves"  {
+	const ac = new AguiluchoColorado()
+	const ab = new Albatro()
+	const pt = new PalomaTorcaza()
+	const i1 = new Isla()
+	method initialize() {
+		/* 
+		i1.agregarAve(ac)
+		i1.agregarAve(ab)
+		i1.agregarAve(pt)
+		ab.irAlGimnasio()
+		*/
+	}	
+	test "Test de ejemplo " {
+		assert.that(true)
+	}
+}
