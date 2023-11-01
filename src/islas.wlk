@@ -44,7 +44,7 @@ class Isla {
 		}
 	}
 	method candidatasCapitanas(min, max) {
-		return aves.filter { ave => ave.fuerza().between(min, max)}
+		return aves.filter { ave => ave.esCandidata(min, max)}
 	}
 	
 	method capitana() {

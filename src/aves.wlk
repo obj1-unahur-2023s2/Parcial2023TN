@@ -5,6 +5,7 @@ class Ave {
 	method relax()
 	method estaConformeCon(isla)
 	method alimentarse(isla)
+	method esCandidata(min, max) = self.fuerza().between(min,max)
 }
 
 class Aguilucho inherits Ave {
