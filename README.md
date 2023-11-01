@@ -103,7 +103,7 @@ Agregar dos nuevas consultas sobre la isla, su _ave capitana_ y si _está en paz
 
 - La condición para que una isla _esté en paz_ es que todas las aves estén conformes con la isla, de acuerdo a esta definición. (**Ayuda**, el ave debe tener la responsabilidad de saber si esta conforme o no con la isla en la que habita.)
 	- un aguilucho está conforme con una isla, si en la isla hay al menos 8 unidades de alpiste.
-	- un albatros está conforme con una isla, si en la isla hay a lo sumo 2 aves que tengan más fuerza que él.
+	- un albatros está conforme con una isla, si en la isla hay al menos 2 aves que tengan más fuerza que él.
 	- una paloma está conforme con una isla, si en la isla hay a lo sumo 1 ave débil que no sea ella misma.
 
 - Armar el test que valida que cada ave este conforme o no con la isla y luego el test para determinar si la isla esta en paz o no.
